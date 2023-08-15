@@ -1,5 +1,6 @@
-import React from "react";
-import HomeComponent from "./Home";
+import React from 'react'
+import HomeComponent from './Home'
+import About from '@/components/About'
 
 const Main = () => {
 	return (
@@ -7,10 +8,12 @@ const Main = () => {
 			<div className='flex justify-center items-center mt-60'>
 				<div className='bg-white h-full w-3/4 text-black'>
 					<HomeComponent />
+					<hr className='' />
+					<About />
 				</div>
 			</div>
 		</>
 	)
 }
 
-export default Main;
+export default Main

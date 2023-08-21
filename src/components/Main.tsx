@@ -1,6 +1,8 @@
 import React from 'react'
 import HomeComponent from './Home'
 import About from '@/components/About'
+import Events from './Events'
+import Team from './Team'
 
 const Main = () => {
 	return (
@@ -10,6 +12,9 @@ const Main = () => {
 					<HomeComponent />
 					<hr className='' />
 					<About />
+					<hr className='' />
+					<Events />
+					<hr className='' />
 				</div>
 			</div>
 		</>

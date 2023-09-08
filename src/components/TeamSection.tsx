@@ -2,7 +2,7 @@
 // TeamMembersSection.js
 
 import React from 'react'
-import TeamMember from './TeamMember' // Import the TeamMember component
+import TeamMember from './TeamMemberCard' // Import the TeamMember component
 
 const TeamMembersSection = () => {
     const teamMembersData = [

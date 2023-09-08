@@ -2,7 +2,7 @@ import React from 'react'
 import HomeComponent from './Home'
 import About from '@/components/About'
 import Events from './Events'
-import TeamMembersSection from './Team'
+import TeamMembersSection from './TeamSection'
 
 const Main = () => {
 	return (

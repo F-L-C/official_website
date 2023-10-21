@@ -3,6 +3,7 @@ import HomeComponent from './Home'
 import About from '@/components/About'
 import Events from './Events'
 import TeamMembersSection from './TeamSection'
+import BlogSection from './Blog'
 
 const Main = () => {
 	return (
@@ -16,6 +17,8 @@ const Main = () => {
 					<Events />
 					<hr className='' />
 					<TeamMembersSection />
+					<hr className='' />
+					<BlogSection />
 				</div>
 			</div>
 		</>

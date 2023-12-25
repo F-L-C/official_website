@@ -1,5 +1,6 @@
-import Main from '../components/Main'
-import Navbar from '../components/Navbar'
+import Main from './Main'
+import Navbar from './Navbar'
+import CarouselWithContent from './Carousel'
 
 const HomePage = () => {
 	return (
@@ -9,6 +10,7 @@ const HomePage = () => {
 			></div>
 			<div className='relative z-10'>
 				<Navbar />
+				<CarouselWithContent />
 				<Main />
 			</div>
 		</div>

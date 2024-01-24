@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "extends": "next/core-web-vitals",
   "rules": {
     "indent": [
@@ -15,3 +16,7 @@
     ]
   }
 }
+=======
+  "extends": "next/core-web-vitals"
+}
+>>>>>>> 493bc1b (Initial commit from Create Next App)

@@ -10,6 +10,11 @@ npm run dev
 yarn dev
 # or
 pnpm dev
+<<<<<<< HEAD
+=======
+# or
+bun dev
+>>>>>>> 493bc1b (Initial commit from Create Next App)
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

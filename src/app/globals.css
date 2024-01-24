@@ -34,4 +34,35 @@ body {
     text-wrap: balance;
   }
 }
+<<<<<<< HEAD
 >>>>>>> 493bc1b (Initial commit from Create Next App)
+=======
+/* src/App.module.css */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #61dafb;
+}
+
+>>>>>>> 6b4a992 (css)

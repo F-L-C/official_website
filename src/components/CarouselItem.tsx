@@ -9,7 +9,7 @@ const Item = ({item}:{item:any}) =>
 			<Paper className='bg-transparent -z-20' elevation={0}>
 				<div className="grid justify-center">
 					<Image
-						src={item.image} alt={item.title} width={700} height={500}
+						src={item.image} alt={item.title} width={500} height={300} objectFit='contained' 
 					/>
 				</div>
 				<div className="flex basis-auto grid place-items-center p-5">

@@ -8,7 +8,7 @@ import BlogSection from '../components/Blog'
 const Main = () => {
 	return (
 		<>
-			<div className='flex justify-center items-center'>
+			<div className='flex relative pt-20 z-30 justify-center items-center'>
 				<div className='bg-white h-full w-3/4 text-black'>
 					<HomeComponent />
 					<hr className='' />
@@ -16,9 +16,10 @@ const Main = () => {
 					<hr className='' />
 					<Events />
 					<hr className='' />
-					<TeamMembersSection />
-					<hr className='' />
 					<BlogSection />
+					<hr className='' />
+					<TeamMembersSection />
+					
 				</div>
 			</div>
 		</>

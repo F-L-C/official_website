@@ -35,8 +35,8 @@ export default function Home() {
         <h1>Foreign Language Club</h1>
       </header>
       <main>
-        <Articles />
         <About />
+        <Articles />
         <Events />
         <Contact />
       </main>
